@@ -1,0 +1,12 @@
+    npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
+
+pwd
+git status
+git add .
+git remote -v
+git commit -m "Memperbarui desain responsif dengan Tailwind CSS"
+git push origin main
+
+git clone https
+cd name
+git pull origin main
