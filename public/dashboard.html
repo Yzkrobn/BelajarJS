@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <p class="bg-black"></p>
-    npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
+    <header class="flex items-center justify-center">
+        <div class="flex items-center justify-center bg-black rounded-b-lg">
+            <img src="./asset/image/js.png" alt="logo" class="max-h-10 m-2">
+            <h1 class="font-bold text-xl text-yellow-300 mr-2">BelajarJavaScript</h1>
+        </div>
+    </header>
+    <nav class="flex flex-col items-end justify-end mt-20">
+        <div id="navButton" class="h-8 flex flex-col items-center justify-center bg-gray-900 backdrop-blur z-10 mb-1 rounded-l-lg">
+            <ul class="mx-2 -translate-y-0.5 space-y-1">
+                <!-- <li id="line1" class="bg-yellow-300 h-1 w-6 transform duration-500"></li>
+                <li id="line2" class="bg-yellow-300 h-1 w-6 transform duration-500"></li>
+                <li id="line3" class="bg-yellow-300 h-1 w-6 transform duration-500 "></li> -->
+                <li id="line1" class="bg-yellow-300 h-1 w-6 transform duration-500 rotate-45 origin-center translate-y-2"></li>
+                <li id="line2" class="bg-yellow-300 h-1 w-6 transform duration-500 -rotate-45 origin-center -translate-y-0"></li>
+                <li id="line3" class="bg-yellow-300 h-1 w-6 transform duration-500  opacity-0 invisible"></li>
+            </ul>
+        </div>
+        <ul id="navSide" class="p-3 space-y-2 bg-gray-900 backdrop-blur w-max rounded-l-lg transform duration-500 translate-x-20  opacity-0 invisible ">
+            <li><a href="" class="text-yellow-300 font-semibold">Home</a></li>
+            <li><a href="" class="text-yellow-300 font-semibold">Project</a></li>
+            <li><a href="" class="text-yellow-300 font-semibold">GitHub</a></li>
+        </ul>
+    </nav>
+
+    
+    
 </body>
+<script src="./js/script.js"></script>
 </html>
