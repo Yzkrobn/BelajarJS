@@ -7,6 +7,6 @@ git remote -v
 git commit -m "Memperbarui desain responsif dengan Tailwind CSS"
 git push origin main
 
-git clone https
+git clone https://github.com/Yzkrobn/BelajarJS.git
 cd name
 git pull origin main
