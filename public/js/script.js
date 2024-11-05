@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const l1 = document.getElementById("line1");
   const l2 = document.getElementById("line2");
   const l3 = document.getElementById("line3");
-  const nS = document.getElementById("navSide");
+  const nBr = document.getElementById("navBar");
 
   const navSide = () => {
     if (nB && nC && l1 && l2 && l3) {
@@ -20,4 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
   navSide();
+  const navBar=()=> {
+    if (condition) {
+      if (window.innerWidth<=768 && nBr.classList.contains("hidden")) {
+        nBr.classList.remove("hidden")
+      }else{
+        nBr.classList.add("hidden")
+      }
+      
+    }
+  }
 });
