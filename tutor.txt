@@ -4,7 +4,7 @@ pwd
 git status
 git add .
 git remote -v
-git commit -m "Memperbarui desain responsif dengan Tailwind CSS"
+git commit -m "Update 3"
 git push origin main
 
 git clone https://github.com/Yzkrobn/BelajarJS.git
