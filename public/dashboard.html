@@ -9,13 +9,20 @@
 </head>
 
 <body>
-    <header class="fixed flex items-center justify-center">
+    <header class="fixed flex-col flex items-center justify-center w-full">
         <div class="flex items-center justify-center bg-black rounded-b-lg">
             <img src="./asset/image/js.png" alt="logo" class="min-h-10 max-h-14 m-2">
             <h1 class="font-bold text-3xl text-yellow-300 mr-2 md:text-5xl">BelajarJavaScript</h1>
         </div>
+        <nav id="navBar" class="hidden items-center justify-center mt-2 w-full md:flex">
+            <ul class="flex items-center justify-center p-3 space-x-4 border-solid border-y-2 border-black backdrop-blur w-full transform ">
+                <li><a href="" class="text-yellow-300 font-semibold text-2xl">Home</a></li>
+                <li><a href="" class="text-yellow-300 font-semibold text-2xl">Project</a></li>
+                <li><a href="" class="text-yellow-300 font-semibold text-2xl">GitHub</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav class="flex flex-col items-end justify-end mt-20 md:hidden">
+    <nav class="w-full fixed flex flex-col justify-end items-end translate-y-40 md:hidden">
         <div id="navButton" class="fixed h-8 flex flex-col items-center justify-center bg-gray-900 backdrop-blur z-10 mb-1 rounded-l-lg">
             <ul class="mx-2 space-y-1">
                 <li id="line1" class="bg-yellow-300 h-1 w-6 transform duration-500 origin-left"></li>
@@ -27,14 +34,6 @@
             <li><a href="" class="text-yellow-300 font-semibold text-xl">Home</a></li>
             <li><a href="" class="text-yellow-300 font-semibold text-xl">Project</a></li>
             <li><a href="" class="text-yellow-300 font-semibold text-xl">GitHub</a></li>
-
-        </ul>
-    </nav>
-    <nav id="navBar" class="sticky hidden items-center justify-center mt-2 md:flex">
-        <ul class="flex items-center justify-center p-3 space-x-4 border-solid border-y-2 border-black backdrop-blur w-full transform ">
-            <li><a href="" class="text-yellow-300 font-semibold text-2xl">Home</a></li>
-            <li><a href="" class="text-yellow-300 font-semibold text-2xl">Project</a></li>
-            <li><a href="" class="text-yellow-300 font-semibold text-2xl">GitHub</a></li>
         </ul>
     </nav>
     <main class="h-screen w-full flex flex-col text-center content-center justify-center">
@@ -42,35 +41,17 @@
         <h1 class="font-semibold text-lg">Saat belajar JavaScript</h1>
     </main>
     <footer class="">
-        <div class="flex justify-center items-center">
+        <div class="flex justify-start items-start ml-5 z-10">
             <div class="flex justify-center items-center bg-black rounded-xl w-max">
                 <img src="./asset/image/js.png" alt="logo" class="min-h-5 max-h-10 m-2">
                 <h1  class="text-yellow-300 font-semibold mr-2">BJSC</h1>
             </div>
         </div>
+        <div class="bg-black h-1 w-full -translate-y-8 z-0"></div>
+        <div class="">
+            <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, velit. Lorem, ipsum dolor.</p>
+        </div>
     </footer>
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>1
+    <script src="./js/script.js"></script>
 </body>
-<script src="./js/script.js"></script>
 </html>

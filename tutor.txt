@@ -1,10 +1,10 @@
-    npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
+npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch
 
 pwd
 git status
 git add .
 git remote -v
-git commit -m "Update 5"
+git commit -m "Update 7"
 git push origin main
 
 git clone https://github.com/Yzkrobn/BelajarJS.git
