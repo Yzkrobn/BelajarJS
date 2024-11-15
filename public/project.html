@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="fixed flex-col flex items-center justify-center w-full">
+        <div class="flex items-center justify-center bg-black rounded-b-lg">
+            <img src="./asset/image/js.png" alt="logo" class="min-h-10 max-h-14 m-2">
+            <h1 class="font-bold text-3xl text-yellow-300 mr-2 md:text-xl">BelajarJavaScript</h1>
+        </div>
+        <nav id="navBar" class="hidden items-center justify-center mt-2 w-full md:flex">
+            <ul
+                class="flex items-center justify-center p-3 space-x-4 border-solid border-y-2 border-black backdrop-blur w-full transform ">
+                <li><a href="./dashboard.html" class="text-yellow-300 font-semibold text-2xl">Home</a></li>
+                <li><a href="./project.html" class="text-yellow-300 font-semibold text-2xl">Project</a></li>
+                <li><a href="" class="text-yellow-300 font-semibold text-2xl">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="w-full fixed flex flex-col justify-end items-end translate-y-40 md:hidden">
+        <div id="navButton"
+            class="fixed h-8 flex flex-col items-center justify-center bg-gray-900 backdrop-blur z-10 mb-1 rounded-l-lg">
+            <ul class="mx-2 space-y-1">
+                <li id="line1" class="bg-yellow-300 h-1 w-6 transform duration-500 origin-left"></li>
+                <li id="line2" class="bg-yellow-300 h-1 w-6 transform duration-500 "></li>
+                <li id="line3" class="bg-yellow-300 h-1 w-6 transform duration-500 origin-left"></li>
+            </ul>
+        </div>
+        <ul id="navController"
+            class="fixed translate-y-32 p-3 space-y-2 bg-gray-900 backdrop-blur w-max rounded-l-lg transform duration-500  opacity-0 invisible">
+            <li><a href="./dashboard.html" class="text-yellow-300 font-semibold text-xl">Home</a></li>
+            <li><a href="./project.html" class="text-yellow-300 font-semibold text-xl">Project</a></li>
+            <li><a href="" class="text-yellow-300 font-semibold text-xl">GitHub</a></li>
+        </ul>
+    </nav>
+    <main class="h-screen w-full flex items-center justify-center">
+        <div class="w-full flex gap-10 snap-x snap-proximity overflow-x-auto pb-14">
+            <div class="snap-center flex-none w-80">
+                <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Tugas-1</h2>
+                    <p class="text-gray-600 mb-4">Ini adalah deskripsi singkat dari card. Bisa berisi informasi atau konten lainnya.</p>
+                    <button
+                        class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none">Button</button>
+                </div>
+            </div>
+
+            <div class="snap-center flex-none w-80">
+                <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Tugas-2</h2>
+                    <p class="text-gray-600 mb-4">Ini adalah deskripsi singkat dari card. Bisa berisi informasi atau konten lainnya.</p>
+                    <button
+                        class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none">Button</button>
+                </div>
+            </div>
+
+            <div class="snap-center flex-none w-80">
+                <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Tugas-3</h2>
+                    <p class="text-gray-600 mb-4">Ini adalah deskripsi singkat dari card. Bisa berisi informasi atau konten lainnya.</p>
+                    <button
+                        class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none">Button</button>
+                </div>
+            </div>
+
+            <div class="snap-center flex-none w-80">
+                <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Tugas-4</h2>
+                    <p class="text-gray-600 mb-4">Ini adalah deskripsi singkat dari card. Bisa berisi informasi atau konten lainnya.</p>
+                    <button
+                        class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none">Button</button>
+                </div>
+            </div>
+
+            <div class="snap-center flex-none w-80">
+                <div class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-4">Tugas-5</h2>
+                    <p class="text-gray-600 mb-4">Ini adalah deskripsi singkat dari card. Bisa berisi informasi atau konten lainnya.</p>
+                    <button
+                        class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none">Button</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer class="">
+        <div class="flex justify-start items-start ml-5 z-10">
+            <div class="flex justify-center items-center bg-black rounded-xl w-max">
+                <img src="./asset/image/js.png" alt="logo" class="min-h-5 max-h-10 m-2">
+                <h1 class="text-yellow-300 font-semibold mr-2">BJSC</h1>
+            </div>
+        </div>
+        <div class="bg-black h-1 w-full -translate-y-8 z-0"></div>
+        <div class="">
+            <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, velit. Lorem, ipsum
+                dolor.</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

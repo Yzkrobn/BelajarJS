@@ -4,7 +4,7 @@ pwd
 git status
 git add .
 git remote -v
-git commit -m "Update 8"
+git commit -m "Update 9"
 git push origin main
 
 git clone https://github.com/Yzkrobn/BelajarJS.git
