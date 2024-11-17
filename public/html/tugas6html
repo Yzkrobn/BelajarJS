@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+    <input type="text" id="taskInput-t6" placeholder="Masukkan tugas baru">
+    <button id="addTaskButton-t6">Tambah</button>
+    <ul id="taskList-t6"></ul>
+
+    <script src="./js/scriptft.js"></script>
+</body>
+
+</html>
